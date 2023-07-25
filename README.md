@@ -61,8 +61,6 @@ Abra um pull request. Todas as contribuições para deixar o código mais limpo 
 
 Eu irei criar um jogo, provavelmente baseado em cara e coroa, que só será visível após o login. Se desejar compartilhar ideias para esse projeto, por favor, envie uma mensagem para mim no GitHub ou no meu LinkedIn.
 
-Agora o README.md está mais organizado e fácil de ler. A separação dos tópicos com os títulos em negrito torna as informações mais destacadas e claras.
-
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-luiz-277055167/)
