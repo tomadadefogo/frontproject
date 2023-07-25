@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+FrontProject  - GameLogin
 
-## Getting Started
+Descrição
+Este é um projeto com o intuito de principal de enviar e autenticar dados do banco de dados, foi feito um projeto Backend e criado um banco de dados. Irá ser  criado um minigame para o a aplicação ficar completa. Por enquanto é possivel se registrar e logar na conta, é necessário o uso do repositorio: backproject para ter acesso ao banco de dados e poder se registrar e conectar a conta.
+Backproject: https://github.com/tomadadefogo/backproject
 
-First, run the development server:
+Funcionalidades
+Registro de conta.
+Login do usuario.
+Uso do LocalStorage para salvar preferências do Usuario (ex: Lightmode).
+Validações de registro/login.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Tecnologias Utilizadas
+Nextjs.
+TypeScript.
+TailWind.
+Axios.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Como Executar o Projeto
+Faça o download ou clone este repositório para o seu computador.
+Abra o projeto em sua IDE em qualquer porta menos a 3002, crie sua conta.
+Os campos de registro são do tipo STRING. o Projeto funciona em conjunto com o Backend,
+sendo necessário o download do "backproject". Inicia o backproject assim o servidor irá ficar online e pronto para receber e fornecer dados, a partir dai é so testar criando e logando na conta.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contribuição
+Se deseja contribuir com o projeto:
+faça um fork do repositório e crie sua branch, faça as alterações, de o push e depois abra um pull request, será muito bem vindo todas as cotribuições para estár deixando o código mais limpo e/ou performático.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contato
+Eu irei criar um jogo provavelmente baseado em cara e coroa, em que so será visivel caso seja efetuado o login, se deseja colocar ideias para esse projeto por favor envie uma mensagem para mim no github ou no meu LinkedIn: https://www.linkedin.com/in/pedro-luiz-277055167/
