@@ -1,30 +1,69 @@
-FrontProject  - GameLogin
 
-Descrição
-Este é um projeto com o intuito de principal de enviar e autenticar dados do banco de dados, foi feito um projeto Backend e criado um banco de dados. Irá ser  criado um minigame para o a aplicação ficar completa. Por enquanto é possivel se registrar e logar na conta, é necessário o uso do repositorio: backproject para ter acesso ao banco de dados e poder se registrar e conectar a conta.
+# FrontProject - GameLogin
+
+Este é um projeto com o intuito principal de enviar e autenticar dados do banco de dados. Foi criado um projeto Backend e um banco de dados para suportar essa funcionalidade. A ideia é que seja desenvolvido um minigame para completar a aplicação. Atualmente, é possível registrar e fazer login nas contas, mas é necessário o uso do repositório "backproject" para ter acesso ao banco de dados e realizar o registro e login.
 Backproject: https://github.com/tomadadefogo/backproject
 
-Funcionalidades
-Registro de conta.
-Login do usuario.
-Uso do LocalStorage para salvar preferências do Usuario (ex: Lightmode).
-Validações de registro/login.
+## Funcionalidades
 
-Tecnologias Utilizadas
-Nextjs.
-TypeScript.
-TailWind.
-Axios.
+- Registro de conta.
+- Login do usuário.
+- Uso do LocalStorage para salvar preferências do usuário (ex: Lightmode).
+- Validações de registro/login.
 
-Como Executar o Projeto
-Faça o download ou clone este repositório para o seu computador.
-Abra o projeto em sua IDE em qualquer porta menos a 3002, crie sua conta.
-Os campos de registro são do tipo STRING. o Projeto funciona em conjunto com o Backend,
-sendo necessário o download do "backproject". Inicia o backproject assim o servidor irá ficar online e pronto para receber e fornecer dados, a partir dai é so testar criando e logando na conta.
 
-Contribuição
+## Stack utilizada
+
+**Front-end:** Next.js
+TypeScript
+TailWind
+Axios
+
+
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/tomadadefogo/frontproject
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd game-login
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+
+## Contribuindo
+
 Se deseja contribuir com o projeto:
-faça um fork do repositório e crie sua branch, faça as alterações, de o push e depois abra um pull request, será muito bem vindo todas as cotribuições para estár deixando o código mais limpo e/ou performático.
 
-Contato
-Eu irei criar um jogo provavelmente baseado em cara e coroa, em que so será visivel caso seja efetuado o login, se deseja colocar ideias para esse projeto por favor envie uma mensagem para mim no github ou no meu LinkedIn: https://www.linkedin.com/in/pedro-luiz-277055167/
+Faça um fork do repositório e crie sua branch.
+Faça as alterações e dê o push.
+Abra um pull request. Todas as contribuições para deixar o código mais limpo e/ou performático serão muito bem-vindas.
+
+## Feedback
+
+Eu irei criar um jogo, provavelmente baseado em cara e coroa, que só será visível após o login. Se desejar compartilhar ideias para esse projeto, por favor, envie uma mensagem para mim no GitHub ou no meu LinkedIn.
+
+Agora o README.md está mais organizado e fácil de ler. A separação dos tópicos com os títulos em negrito torna as informações mais destacadas e claras.
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedro-luiz-277055167/)
+
